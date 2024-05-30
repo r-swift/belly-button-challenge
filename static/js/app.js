@@ -18,11 +18,6 @@ function buildMetadata(sample) {
 
     // Inside a loop, you will need to use d3 to append new
     // tags for each key-value in the filtered metadata.
-    Object.entries(sample).forEach(([key, value]) => {
-      var row = sample_metadata.append("p");
-      row.text(`${key}: ${value}`);
-
-  });
 });
 });
 }
